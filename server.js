@@ -15,7 +15,7 @@ app.use(cors());
 const db = knex({
   client: "pg",
   connection: {
-    host: "127.0.0.1",
+    host: "postgresql-corrugated-11821",
     user: "postgres",
     password: "gradez789",
     database: "smart-brain",
